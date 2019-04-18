@@ -15,6 +15,7 @@ class PostCountry extends Component {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam
                 sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum
                 minus inventore?
+                <img src ='../../../pictures/1.jpg' alt="slide"/>
               </p>
               <p class='lead'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam

@@ -1,20 +1,24 @@
 {
-    "counry": [
+    "country": [
       {
         "name": "Italy",
-        "id": 1
+        "id": 1,
+        "imgSrc": "../pictures/1.jpg"
       },
          {
         "name": "France",
-        "id": 2
+        "id": 2,
+        "imgSrc": "../pictures/2.jpg"
       },
       {
         "name": "Germany",
-        "id": 3
+        "id": 3,
+        "imgSrc": "../pictures/3.jpg"
       },
       {
         "name": "Spain",
-        "id": 4
+        "id": 4,
+        "imgSrc": "../pictures/4.jpg"
       }
     ]
   }
