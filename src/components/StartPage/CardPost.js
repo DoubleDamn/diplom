@@ -4,15 +4,19 @@ import { Link } from 'react-router-dom';
 
 export const CardPost= props => {
   return (
-    <div className='card bg-light mb-4 border-success shadow-sm mx-auto p-3'>
-    <h4>{props.cont.title}</h4>
+    <div className='card bg-light m-4 border-secondary shadow-sm mx-auto pb-3'>
+    <h3 className="card-header">{props.cont.title}</h3>
+    <div className="card-body">
       <Link to={'/post/' + props.cont.id}>
         <img
           src={require(`../../../pictures/${props.cont.id}.jpg`)}
           alt='Img'
-          className='card-img-top'
+          className='card-img-top mr-3'
         />
       </Link>
+      <p className="card-text"> {props.cont.description}</p>
+      <Link to={'/post/' + props.cont.id}className="card-link"> Читать далее</Link>
+      </div>
     </div>
   );
 };

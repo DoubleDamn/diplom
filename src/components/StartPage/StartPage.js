@@ -15,7 +15,7 @@ class StartPage extends Component {
   }
 
   render() {
-    console.log(this.props.countries);
+    console.log(this.state);
     const cont = this.props.countries.map(cont => <CardPost key={cont.id} cont={cont} />);
 
     return (

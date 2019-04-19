@@ -15,7 +15,6 @@
     "bfj": "6.1.1",
     "body-parser": "^1.18.3",
     "case-sensitive-paths-webpack-plugin": "2.2.0",
-   
     "css-loader": "1.0.0",
     "dotenv": "6.0.0",
     "dotenv-expand": "4.2.0",
@@ -26,7 +25,6 @@
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-jsx-a11y": "6.1.2",
     "eslint-plugin-react": "7.12.4",
-   
     "file-loader": "2.0.0",
     "fork-ts-checker-webpack-plugin-alt": "0.4.14",
     "fs-extra": "7.0.1",
@@ -37,8 +35,6 @@
     "jest-resolve": "23.6.0",
     "jest-watch-typeahead": "^0.2.1",
     "mini-css-extract-plugin": "0.5.0",
-   
-   
     "optimize-css-assets-webpack-plugin": "5.0.1",
     "pnp-webpack-plugin": "1.2.1",
     "postcss-flexbugs-fixes": "4.1.0",
@@ -54,6 +50,7 @@
     "react-responsive-carousel": "^3.1.47",
     "react-router-dom": "^4.3.1",
     "redux": "^4.0.1",
+    "redux-search": "^2.5.0",
     "redux-thunk": "^2.3.0",
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",

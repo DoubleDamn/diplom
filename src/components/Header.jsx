@@ -50,6 +50,7 @@ export const Header = () => {
           </button>
         </div>
         <form className='form-inline my-2 my-lg-0'>
+        
           <input className='form-control' type='text' placeholder='Поиск' />
           <button className='btn btn-secondary search' type='submit'>
             <i className='fas fa-search' />
