@@ -5,16 +5,17 @@ const countries = require('./Schema');
 const users = require('./SchemaUser');
 
 router.get('/users', (req, res) => {
-    users.find()
-        .then(users => res.json(users));
-  });
-
-router.get('/countries', (req, res) => {
-    countries.find()
-        .then(countries => res.json(countries));
+  users.find().then(users => res.json(users));
 });
 
-  module.exports = router;
+router.get('/countries', (req, res) => {
+  const limit = req.query;
+  countries.find().then(countries => {
+    res.json(countries);
+  });
+});
+
+module.exports = router;
 
 // //Add Task
 // router.post('/', (req, res) => {
@@ -28,7 +29,6 @@ router.get('/countries', (req, res) => {
 // router.delete('/:id', (req, res) => {
 //   Country.findById(req.params.id).then(item => item.remove().then(() => res.json({ success: true })));
 // });
-
 
 // //Update Task
 // router.put('/:id', (req, res) => {

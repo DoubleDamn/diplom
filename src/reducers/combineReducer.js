@@ -1,9 +1,11 @@
 import { combineReducers} from 'redux';
 import countriesReducer from './countriesReducer'
-import { reducer as searchReducer, reduxSearch } from 'redux-search'
+
+import Search from './Search'
+
 // import postReducer from './postReducer'
 
 export default combineReducers({
     countriesReducer,
-    search: searchReducer
+    Search
 });

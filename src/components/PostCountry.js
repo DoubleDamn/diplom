@@ -8,16 +8,15 @@ class PostCountry extends Component {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-8'>
-              <h1 class='mt-4'>Post Title</h1>
-              <img class='img-fluid rounded' src='' alt='' />
+              <h1 className='mt-4'>Post Title</h1>
+              <img className='img-fluid rounded' src='' alt='' />
               <hr />
-              <p class='lead'>
+              <p className='lead'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam
                 sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum
                 minus inventore?
-                <img src ='../../../pictures/1.jpg' alt="slide"/>
               </p>
-              <p class='lead'>
+              <p className='lead'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam
                 sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum
                 minus inventore?

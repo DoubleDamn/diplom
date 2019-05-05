@@ -9,7 +9,7 @@ export const CardPost= props => {
     <div className="card-body">
       <Link to={'/post/' + props.cont.id}>
         <img
-          src={require(`../../../pictures/${props.cont.id}.jpg`)}
+          src={require(`../../../pictures/1.jpg`)}
           alt='Img'
           className='card-img-top mr-3'
         />

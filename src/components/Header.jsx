@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Search from './Search';
 
 export const Header = () => {
   return (
@@ -49,13 +50,14 @@ export const Header = () => {
             Регистрация
           </button>
         </div>
-        <form className='form-inline my-2 my-lg-0'>
+        <Search/>
+        {/* <form className='form-inline my-2 my-lg-0'>
         
           <input className='form-control' type='text' placeholder='Поиск' />
           <button className='btn btn-secondary search' type='submit'>
             <i className='fas fa-search' />
           </button>
-        </form>
+        </form> */}
       </div>
     </nav>
   );
