@@ -9,7 +9,6 @@ const initState = {
 };
 
 const countriesReducer = (state = initState, action) => {
-  console.log(state);
   switch (action.type) {
     case actionType.DATA_IS_LOADING:
       return {

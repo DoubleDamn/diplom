@@ -11,7 +11,7 @@ export const CardPost= props => {
         <img
           src={require(`../../../pictures/1.jpg`)}
           alt='Img'
-          className='card-img-top mr-3'
+          className='card-img-top-main mr-3'
         />
       </Link>
       <p className="card-text"> {props.cont.description}</p>
